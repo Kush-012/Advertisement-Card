@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.left{
+    color:#604CC3;
+    background-color:#D8EFD3;
+    width:390px;
+    height:350px;
+    padding:10px;
+    
+} 
+body{
+    background: #e1eec3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f05053, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f05053, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+} 
+
+.box::before{
+    content: "";
+    border:2px solid black;
+    position: absolute;
+    top: -40px;
+    left: -55px; 
+    width: 50px; 
+    height: 50px;
+    background: #06beb6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius:50%;
+}
+
+
+.box::after{
+    content: "";
+    border:2px solid black;
+    position: absolute;
+    bottom: -40px;
+    right: -55px; 
+    width: 50px; 
+    height: 50px;
+    background: #06beb6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius:50%;
+}
+
+.box{
+    display:flex;
+    width:800px;
+    justify-content:center;
+    margin-top:190px;
+    margin-left:330px;
+    border:4px solid black;
+    position:relative;
+}
+.right{
+    width:400px;
+    height:370px;
+} 
+.right img{
+    width:400px;
+    height:370px; 
+}   
+#one, #two, #three{
+padding-right:85px;
+font-weight: 900; 
+} 
+#one{
+    padding-left:10px;
+} 
+
+#oneq{
+padding-right:53px;
+padding-left:10px;
+} 
+#twoq{
+padding-right:44px;
+}   
+
+    </style>
+</head>
+<body> 
+
+    <div class="container">
+    <div class="box">
+
+<div class="left">
+    <h1>Bhiwani</h1>
+    Bhiwani, bathed in the warm glow of June, offers a unique perspective on 
+    nature's symphony. The Aravalli Hills stand as silent sentinels, their rocky
+     slopes dotted with hardy shrubs and acacia trees. The monsoon's approach paints 
+     the landscape with vibrant greens, the fields bursting with life as crops like bajra and cotton thrive.
+    The air hums with the chirping of sparrows and the calls of koel birds. Peacocks 
+    strut proudly, their iridescent plumage shimmering in the sunlight. In the serene ponds,
+     water lilies bloom, attracting a myriad of insects and small amphibians.<br><br>
+    <span id="one">10K+</span> <span id="two">214</span> <span id="three">12M+</span>
+    <span id="oneq">Comments</span> <span id="twoq">Paid Users</span> <span id="threeq">Views</span>
+</div>
+
+<div class="right">
+    <img src="download.jpeg">
+</div>
+
+
+</div>
+</div>
+
+</body>
+</html> 
